@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.nav{
+    flex-basis: 100px;
+}
+
+.nav ul li a
+{
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+
+/* section backgroud*/
+.section-backgroud{
+    width: 100%;
+    height: 600px;
+    background-image: url('./img/pexels-photo-4038919.jpeg');
+    background-position: 100% 57.75%;
+    background-size: 120%;
+    position: relative;
+}
+
+.section-backgroud-conten{
+    height: 100px;
+    width: 60%;
+    position: absolute;
+    bottom: 150px;
+    right: 20%;
+    color: white;
+    text-align:right;
+}
+
+.section-backgroud-conten h1{
+    font-size: 3.75rem;
+}
+
+.section-backgroud-conten p{
+    font-size: 1.125rem;
+}
+
+
+/* section founder */
+
+.founder{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.img-founder img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.about-founder{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.about-founder-conten{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.about-founder-conten-1, .about-founder-conten-2{
+    text-align: left;
+    width: 50%;
+}
+
+.about-founder-conten-1 h2{
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.about-founder-conten-2 p {
+    font-family: Roboto,sans-serif !important;
+    line-height: 2;
+}
+
+
+/* section our cases */
+.our-cases{
+    width: 60%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.our-cases-conten{
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.our-cases-conten h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.our-cases-img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.our-cases-img-group-1{
+    display: grid;
+    /* grid-template-columns: 70% 50%; */
+    height: 400px;
+}
+
+.img-group-1-1{
+    background-size: cover;
+    background-image: url('./img/ourcases/04BespokeNewYorkBrandingPrintBusinessCardsStationeryDIAUSABPOmin.jpg');
+    border: 15px solid white;
+    grid-column: 1/3;
+    border-image-width: 15px;
+}
+
+
+.img-group-1-2{
+    background-size: cover;
+    background-image: url('./img/ourcases/cd.png');
+    border: 15px solid white;
+    grid-column: 3/4;
+    border-image-width: 15px;
+}
+
+
+.our-cases-img-group-2{
+    display: grid;
+    /* grid-template-columns:  repeat(3, 40%); */
+    height: 400px;
+    
+}
+
+.img-group-2-1{
+    background-size: cover;
+    background-image: url('./img/ourcases/Untitled13.jpg');
+    border: 15px solid white;
+    grid-column: 1/2;
+    border-image-width: 15px;
+}
+
+.img-group-2-2{
+    background-size: cover;
+    background-image: url('./img/ourcases/222553a749dcde051845c032ba11e013.jpeg');
+    border: 15px solid white;
+    grid-column: 2/3;
+    border-image-width: 15px;
+}
+
+.img-group-2-3{
+    background-size: cover;
+    background-image: url('./img/ourcases/65f7c88b31988ade0bf27ce9897b0b58.jpeg');
+    border: 15px solid white;
+    grid-column: 3/4;
+    border-image-width: 15px;
+}
