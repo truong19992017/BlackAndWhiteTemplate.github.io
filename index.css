@@ -72,13 +72,13 @@ li{
 /* section founder */
 
 .founder{
-    height: auto;
+    height: 450px;
     display: grid;
     grid-template-columns: repeat(4, auto);
 }
 
 .img-founder img{
-    height: 100%;
+    height: 80%;
     width: 100%;
     object-fit: cover;
 }
@@ -144,7 +144,6 @@ li{
 
 .our-cases-img-group-1{
     display: grid;
-    /* grid-template-columns: 70% 50%; */
     height: 400px;
 }
 
@@ -153,7 +152,6 @@ li{
     background-image: url('./img/ourcases/04BespokeNewYorkBrandingPrintBusinessCardsStationeryDIAUSABPOmin.jpg');
     border: 15px solid white;
     grid-column: 1/3;
-    border-image-width: 15px;
 }
 
 
@@ -162,13 +160,11 @@ li{
     background-image: url('./img/ourcases/cd.png');
     border: 15px solid white;
     grid-column: 3/4;
-    border-image-width: 15px;
 }
 
 
 .our-cases-img-group-2{
     display: grid;
-    /* grid-template-columns:  repeat(3, 40%); */
     height: 400px;
     
 }
@@ -178,7 +174,6 @@ li{
     background-image: url('./img/ourcases/Untitled13.jpg');
     border: 15px solid white;
     grid-column: 1/2;
-    border-image-width: 15px;
 }
 
 .img-group-2-2{
@@ -186,7 +181,6 @@ li{
     background-image: url('./img/ourcases/222553a749dcde051845c032ba11e013.jpeg');
     border: 15px solid white;
     grid-column: 2/3;
-    border-image-width: 15px;
 }
 
 .img-group-2-3{
@@ -194,5 +188,248 @@ li{
     background-image: url('./img/ourcases/65f7c88b31988ade0bf27ce9897b0b58.jpeg');
     border: 15px solid white;
     grid-column: 3/4;
-    border-image-width: 15px;
+}
+
+
+
+
+/* section blog */
+.blog{
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+
+    margin-top: 60px;
+}
+
+.blog-1{
+    height: 100%;
+    width: 25%;
+
+    background-image: url('./img/blog/pexelsphoto3325681.jpeg');
+    background-size: cover;
+}
+.blog-2{
+    height: 100%;
+    width: 25%;
+
+    background-color: black;
+    color: white;
+
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+
+    font-size: 10px;
+}
+
+.blog-2 h3{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.blog-3{
+    height: 100%;
+    width: 25%;
+
+    background-color: white;
+
+    text-align: left;
+    padding: 30px 20px;
+
+    font-size: 10px;
+}
+
+.blog-3 p {
+    font-size: 1.8em;
+    line-height: 1.6;
+}
+
+.blog-3 a{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    color: black;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px
+}
+
+.blog-3 a:hover {
+    color: black;
+}
+
+.blog-4{
+    height: 100%;
+    width: 25%;
+
+    background-image: url('./img/blog/pexelsphoto3328071.jpeg');
+    background-size: cover;
+}
+
+
+/* section creater */
+.creater{
+    width: 100%;
+    height: 1000px;
+
+    background-color: black;
+
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.creater-img{
+    height: 60%;
+    width: 30%;
+    
+    margin: 0 auto;
+    
+}
+
+.creater-img-1{
+    background-color: white;
+    height: 180px;
+    width: 100%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.creater-img-2{
+    background-image: url('./img/creater/pexelsphoto3423888.jpeg');
+    background-size: cover;
+    width: 328px;
+    height: 100%;
+
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+
+    top: -50%;
+    transform: translateY(12.5%);
+}
+
+.creater-content{
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 60px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.creater-content h3{
+    font-size: 5em;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.creater-content p{
+    font-size: 1.65em;
+    padding-top: 20px;
+}
+
+.creater-content a{
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px white solid;
+    padding-bottom: 2px;
+}
+
+.creater-content a:hover{
+    color: white;
+}
+
+
+/* section contacts */
+.contacts {
+    height: 680px;
+    width: 100%;
+    display: flex;
+}
+
+.contacts-content{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+.contacts-img{
+    width: 50%;
+    height: 100%;
+    background-image: url('./img/contacts/pexelsphoto3443934.jpeg');
+    background-size: cover;
+}
+
+.contacts-content{
+    text-align: center;
+    font-size: 10px;
+}
+
+.contacts-content img{
+    height: 320px;
+    width: 420px;
+    margin-top: 100px;
+}
+
+.contacts-content p{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.6em;
+}
+
+.contacts-content a{
+    color: white;
+    font-size: 1.6em;
+    text-decoration: none;
+    border-bottom: 2px white solid;
+    padding-bottom: 5px;
+}
+
+.contacts-content a:hover{
+    color: white;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+
+    background-color: #333333;
+    color: white;
+
+    text-align: center;
+
+    font-size: 10px;
+}
+
+.footer h4{
+    font-size: 2em;
+}
+
+.footer h5{
+    font-size: 1.4em;
+}
+
+.footer-created{
+    padding-top: 50px;
+}
+
+.footer-created a{
+    color: white;
+}
+
+.footer-created a:hover{
+    color: white;
 }
