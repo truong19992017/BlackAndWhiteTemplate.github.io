@@ -78,14 +78,14 @@ li{
 }
 
 .img-founder img{
-    height: 80%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 
 .about-founder{
-    height: 300px;
+    height: 100%;
     width: 100%;
     background-color: black;
 }
@@ -282,8 +282,8 @@ li{
 }
 
 .creater-img{
-    height: 60%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
     
     margin: 0 auto;
     
@@ -375,8 +375,8 @@ li{
 }
 
 .contacts-content img{
-    height: 320px;
-    width: 420px;
+    height: 45%;
+    width: 45%;
     margin-top: 100px;
 }
 
@@ -432,4 +432,168 @@ li{
 
 .footer-created a:hover{
     color: white;
+}
+
+
+
+/* =================== responsive ================== */
+@media screen and (max-width: 1024px){
+
+    .section-backgroud-conten h1{
+        font-size: 2em;
+    }
+
+    .about-founder-conten{
+        width: 70%;
+    }
+
+    .our-cases{
+        width: 90%;
+    }
+
+    .blog-2 h3 {
+        font-size: 2.8em;
+        padding: 10px;
+    }
+
+    .blog-3 p, a{
+        font-size: 1.3em;
+    }
+
+    .creater-content h3{
+        font-size: 2em;
+    }
+
+    .creater-img-1{
+        top: 30%;
+        width: 130%;
+        transform: translateX(-12%);
+    }
+
+    .contacts-content img {
+        margin-top: 60px;   
+        height: 40%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .section-backgroud{
+        height: 300px;
+    }
+
+    .section-backgroud-conten h1{
+        font-size: 1em;
+        margin-top: 8em;
+    }
+
+    .section-backgroud-conten p{
+        font-size: 0.7em;
+    }
+
+    .founder{
+        grid-template-columns: repeat(2, auto);
+    }
+    .about-founder-conten{
+        width: 100%;
+        padding-top: 12em;
+    }
+
+    .about-founder-conten-1{
+        padding: 25px;
+    }
+
+    .about-founder-conten-1 h2{
+        font-size: 2em;
+    }
+
+    .about-founder-conten-1 h5{
+        font-size: 1em;
+    }
+    
+    .about-founder-conten-2 p{
+        font-size: 0.8em;
+        padding: 15px;
+    }
+
+    .our-cases {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-cases-conten {
+        padding-top: 20px;
+    }
+
+    .img-group-1-1, .img-group-1-2, .img-group-2-1, 
+    .img-group-2-2, .img-group-2-3 {
+        grid-column: 1/4;
+        height: 500px;
+    }
+
+    .our-cases-img-group-2, .our-cases-img-group-1{
+        height: auto;
+    }
+
+    .blog{
+        display: grid;
+        height: auto;
+    }
+    .blog-1,.blog-3 {
+        grid-column: 1/3;
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog-2, .blog-4 {
+        grid-column: 3/4;
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog-2 h3 {
+        font-size: 2.25em;
+        padding: 10px;
+    }
+
+    .blog-3 p{
+        font-size: 0.85em;
+    }
+
+    .blog-3 a{
+        font-size: 1em;
+    }
+
+    .creater{
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .creater-img{
+        width: 100%;
+    }
+
+    .creater-img-1{
+        width: 100%;
+        display: none;
+    }
+
+    .creater-img-2{
+        width: 300px;
+        height: 500px;
+    }
+
+    .creater-content{
+        width: 90%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .contacts-content{
+        width: 100%;
+    }
+
+    .contacts-img{
+        display: none;
+    }
 }
